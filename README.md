@@ -5,6 +5,8 @@ Sports clubs often encounter difficulties in effectively managing their members,
 The project is a **client-server** application whose backend was implemented in **Java**, using **multithreading**. The assumption is that the client connects to the server that is responsible for connecting to the **MySQL** management system that controls the operation of the database. Once retrieved from the database, the feedback is sent again by the server to the client.
 Frontend was made in JavaFX and CSS.
 
+![image](https://github.com/dminior8/ClubManagerApplication/assets/86890266/8a2ad603-829d-4861-9840-2eb35e8727d5)
+
 ### Subfolders structure
 The `Server` workspace contains classes and subfolders responsible for starting the Server, connecting to the client, maintaining communication with it via Sockets and connecting to the database by endpoints to download resources from it.
 * `ServerFunction`: the folder to maintain core backend of application.
